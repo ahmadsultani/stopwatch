@@ -1,0 +1,21 @@
+.timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;  
+}
+
+.item {
+  width: 6vw;
+  height: 6vw;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  font-size: 4rem;
+  background-color: rgb(68, 67, 67);
+  border-radius: 10px;
+  margin: 0 5px;
+}

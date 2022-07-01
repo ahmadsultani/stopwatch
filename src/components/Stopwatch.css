@@ -1,0 +1,50 @@
+.stopwatch {
+  position: relative;
+  top: calc(45vh - 10vw);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  width: 40vw;
+  margin: 0 auto;
+  background-color: #fafafa;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 30px;
+}
+
+.btn {
+  margin: 10px 10px;
+  display: flex;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  background-color: maroon;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  float: left;
+  height: 45px;
+  width: 90px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  box-shadow: 0 0 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition: 0.2s;
+}
+
+.btn:active {
+  transform: translateY(2px);
+  transition: 0.2s;
+}
